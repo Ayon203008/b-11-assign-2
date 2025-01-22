@@ -119,14 +119,14 @@ a{
     
 }
 .div-4{
-    width: 50%;
-    margin-top: 5rem;
+    
+    margin-top: 3rem;
 }
 .heading-2{
     font-weight: 700;
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 .div-7{
     display: flex;
@@ -255,7 +255,7 @@ footer{
     border-radius: 16px;   
 }
 .card-div{
-    padding:35px ;
+    /* padding:35px ; */
 
 }
 .master{
@@ -316,6 +316,7 @@ li{
 .para-4{
     font-weight:500 ;
     font-size: 1rem;
+    color: rgb(128, 128, 128);
 }
 .btn-4{
     background-color: none;
@@ -349,6 +350,9 @@ li{
 .icon i{
     font-size: 30px;
     margin-right: 5px;
+}
+.image{
+    width: 100%;
 }
 
 /*GRID*/
@@ -421,6 +425,9 @@ li{
         /* margin-left: 8rem; */
         margin-bottom: 15px;
     }
+    .card1{
+        display: block;
+    }
     .div-4{
         /*margin-left: 9rem;*/
         text-align: center;
@@ -434,6 +441,8 @@ li{
     .image{
         width: 100%;
         object-fit: cover;
+        margin: 0;
+        padding: 0;
     }
 
 
