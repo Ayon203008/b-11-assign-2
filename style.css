@@ -26,6 +26,7 @@ body{
     list-style: none;
     text-decoration: none;
     align-items: center;
+    margin-top: 2rem;
 }
 a{
     text-decoration: none;
@@ -193,7 +194,7 @@ padding: 50px 10px 0px 10px ;
 .div-13{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap:;
+    gap:30px;
 
 }
 .div-1{
@@ -355,6 +356,9 @@ li{
     .h3{
         display: none;
     }
+    .navbar{
+        width: 100%;
+    }
     .section-1{
         flex-direction: column;
         display: flex;
@@ -375,6 +379,7 @@ li{
     }
     .content{
         flex-direction: column;
+        
     }
     .last-div{
         grid-template-columns: repeat(1,1fr);
@@ -409,11 +414,11 @@ li{
         padding-bottom:2px ;
     }
     .card{
-        margin-left: 8rem;
+        /* margin-left: 8rem; */
         margin-bottom: 15px;
     }
     .div-4{
-        margin-left: 9rem;
+        /*margin-left: 9rem;*/
     }
     
 
