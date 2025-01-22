@@ -202,6 +202,9 @@ padding: 50px 10px 0px 10px ;
     text-align: center;
     align-items: center;
 }
+.image01{
+    width: 100%;
+}
 .card{
     border: 1px solid white;
     height:320px ;
@@ -429,7 +432,7 @@ li{
         display: block;
     }
     .div-4{
-        /*margin-left: 9rem;*/
+        
         text-align: center;
 
     }
@@ -438,9 +441,9 @@ li{
         text-align: center;
 
     }
-    .image{
+    .image01{
         width: 100%;
-        object-fit: cover;
+        
         margin: 0;
         padding: 0;
     }
